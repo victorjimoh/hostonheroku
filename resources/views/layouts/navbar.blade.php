@@ -18,7 +18,7 @@
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="{{asset('images/OA yellow logo.svg')}}" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav3" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+				<i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav3">
                     <ul class="navbar-nav mx-auto">
@@ -30,7 +30,9 @@
                         </li>
                         <li class="nav-item px-4"><a class="nav-link" href="{{route('faqs')}}"> FAQs </a></li>
                     </ul>
-                    <button type="button" class="ml-md-3 navbar-button"><b>TALK TO US.</b></button>
+					<button type="button" class="ml-md-3 mr-5 navbar-login"><b>Login</b></button>
+					
+                    <button type="button" class="ml-md-3   navbar-button">Contact Us.</button>
 
                 </div> <!-- navbar-collapse.// -->
             </div> <!-- container.// -->
@@ -41,8 +43,6 @@
     <!-- section-header.// -->
     <!--<section class="section-content">
     
-    <img src="{{asset('images/OA hero section photo 1.png')}}" class="w-100 section-1">
-    <img src="{{asset('images/OA hero sectoin 2.png')}}" class="w-100 section-2">
              container .// 
     </section>-->
 	

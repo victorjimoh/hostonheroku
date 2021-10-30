@@ -10,6 +10,13 @@
     <title>Laravel</title>
     <link href="../css/ui.css" rel="stylesheet" type="text/css" />
     <link href="../css/responsive.css" rel="stylesheet" />
+   <script>
+   $(document).ready(function(){
+    $(window).on('load',function(){
+        $('.loader-wrapper').fadeOut();
+   });
+  });
+   </script>
 </head>
 
 <body class="antialiased" data-spy="scroll" data-offset="300">
@@ -113,7 +120,7 @@
 <div class="loader"></div>
 </div>
 
-<script src = "{{asset('js/main.js')}}" type="text/javascript" ></script>
+
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>

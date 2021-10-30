@@ -10,7 +10,13 @@
     <title>Laravel</title>
     <link href="../css/ui.css" rel="stylesheet" type="text/css" />
     <link href="../css/responsive.css" rel="stylesheet" />
-    <script src = "{{asset('js/main.js')}}" type="text/javascript" ></script>
+   <script>
+   $(document).ready(function(){
+    $(window).on('load',function(){
+        $('.loader-wrapper').fadeOut();
+   });
+  });
+   </script>
 </head>
 
 <body class="antialiased" data-spy="scroll" data-offset="300">

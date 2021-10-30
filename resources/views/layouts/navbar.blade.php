@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" type="text/javascript"></script>
     <title>Laravel</title>
     <link href="../css/ui.css" rel="stylesheet" type="text/css" />
     <link href="../css/responsive.css" rel="stylesheet" />
-  
- 
-  
 </head>
 
-<body class="antialiased">
+<body class="antialiased" data-spy="scroll" data-offset="300">
     <header class="section-header">
         <nav class="navbar navbar-main navbar-expand-lg navbar-light">
             <div class="container">
@@ -47,6 +45,7 @@
     <img src="{{asset('images/OA hero sectoin 2.png')}}" class="w-100 section-2">
              container .// 
     </section>-->
+	
     <footer class="section-footer">
 	<div class="container">
 		<section class="footer-top  padding-y">
@@ -110,12 +109,17 @@
 		</section>
 	</div><!-- //container -->
 </footer>
-    <!-- ========================= SECTION CONTENT END// ========================= -->
+<div class = "loader-wrapper">
+<div class="loader"></div>
+</div>
+
+<script src = "{{asset('js/main.js')}}" type="text/javascript" ></script>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/v4-shims.js"></script>
+ 
 </body>
 
 </html>

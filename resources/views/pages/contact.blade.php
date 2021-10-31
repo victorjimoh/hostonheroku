@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="feature-block d-lg-flex">
-                <div class="feature-item text-center">
-                        <div class="feature-icon mb-3">
+                <div class="feature-item text-center mb-4 mb-lg-0">
+                        <div class="feature-icon  ">
                         <i class="fas fa-question-circle feature-svg"></i>
                         </div>
                         <h4 class="mb-3">Contact Information</h4>
@@ -21,7 +21,7 @@
                         <a href="#" class="link-for-frequently-asked-questions">Visit Us <i class="fas fa-chevron-right chevron-r "></i></a>
                     </div>
 
-                    <div class="feature-item text-center">
+                    <div class="feature-item text-center mb-4 mb-lg-0">
                         <div class="feature-icon mb-3">
                         <i class="fas fa-comments feature-svg"></i>
                         </div>
@@ -31,7 +31,7 @@
                         <a href="{{route('faqs')}}" class="link-for-frequently-asked-questions">Visit FAQs <i class="fas fa-chevron-right chevron-r "></i></a>
                     </div>
 
-                    <div class="feature-item text-center">
+                    <div class="feature-item text-center mb-4 mb-lg-0">
                         <div class="feature-icon mb-3">
                         <i class="fas fa-comments feature-svg"></i>
                         </div>
@@ -49,7 +49,7 @@
 <section class="pt-5 pb-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-12 col-md-6 contact-info border-0 p-5">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-6 contact-info border-0 p-5">
                 <h2 class="text-center">Tell us about yourself</h2>
                 <p class = "text-center color-grey">Whether you have questions or you would just like to say hello, contact us.</p>
                 

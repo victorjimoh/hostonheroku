@@ -37,9 +37,9 @@
                         </li>
                         <li class="nav-item px-4"><a class="nav-link" href="{{route('faqs')}}"> FAQs </a></li>
                     </ul>
-					<button type="button" class="ml-md-3 mr-5 navbar-login"><b>Login</b></button>
+					<button type="button" class="ml-md-3 mr-5 navbar-login">Login</button>
 					
-                    <button type="button" class="ml-md-3   navbar-button">Contact Us.</button>
+                   <a href = "{{route('contact-us')}}"><button type="button" class="ml-md-3 navbar-button">Contact Us.</button></a> 
 
                 </div> <!-- navbar-collapse.// -->
             </div> <!-- container.// -->

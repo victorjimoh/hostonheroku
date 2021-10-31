@@ -8,6 +8,9 @@
   .section-2{
     display:block;
   }
+  .lkd{
+    margin-bottom: 24px;
+  }
 }
 @media(min-width: 768px){
   .section-1{
@@ -15,6 +18,9 @@
   }
   .section-2{
     display:none;
+  }
+  .lkd{
+    margin-bottom: 0px;
   }
 }
 

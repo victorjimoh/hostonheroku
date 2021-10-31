@@ -10,8 +10,8 @@
 <section class="mt-5 mb-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="card-banner overlay-gradient" style="min-height:230px; background-image: url('../images/IMG_1511.jpg');">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 lkd">
+                <div class="card-banner overlay-gradient " style="min-height:230px; background-image: url('../images/IMG_1511.jpg');">
                     <div class="card-img-overlay text-white">
                         <h3 class="card-title">FULL SOLAR INSTALLATION</h3>
                         <p class="card-text text-justify color-white">We at OA Inverters, we offer full nationwide solar system/inverter installations including solar panels, inverter, batteries, etc.</p>
@@ -30,7 +30,7 @@
         </div>
         <br />
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 lkd">
                 <div class="card-banner overlay-gradient" style="min-height:230px; background-image: url('../images/IMG_1502.jpg');">
                     <div class="card-img-overlay text-white">
                         <h3 class="card-title letsgo">SYSTEM MAINTENANACE</h3>

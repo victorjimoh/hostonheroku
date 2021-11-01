@@ -45,14 +45,7 @@
             </div> <!-- container.// -->
         </nav>
     </header>
-    
     @yield("contents")
-    <!-- section-header.// -->
-    <!--<section class="section-content">
-    
-             container .// 
-    </section>-->
-	
     <footer class="section-footer">
 	<div class="container">
 		<section class="footer-top  padding-y">

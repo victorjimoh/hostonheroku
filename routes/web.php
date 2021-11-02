@@ -18,5 +18,6 @@ Route::get('/', function () {
 })->name('myhome');
 Route::get('/faqs', [App\Http\Controllers\FaqController::class, 'index'])->name('faqs');
 Route::get('/contactus', [App\Http\Controllers\ContactUsController::class, 'index'])->name('contact-us');
+Route::post('/contactus', [App\Http\Controllers\ContactUsController::class, 'store'])->name('contact-information-save');
 Route::get('/aboutus', [App\Http\Controllers\AboutusController::class, 'index'])->name('about-us');
 Route::get('/services', [App\Http\Controllers\ServiceController::class, 'index'])->name('services');

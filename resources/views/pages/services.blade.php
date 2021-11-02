@@ -1,9 +1,9 @@
 @extends('layouts.navbar')
 @section('contents')
 <section class="title-container">
-    <div class="container">
-        <h3>Services We Offer.</h3>
-        <p>Can't find the answer to your question below? Get in touch with us at <a href="#">OA Customer Care.</a></p>
+    <div class="container text-center">
+        <h2>Services We Offer.</h2>
+        
     </div>
 </section>
 

@@ -2,12 +2,25 @@
 .antialiased{
   font-family: 'Zen Kaku Gothic New', sans-serif;
    font-size: 16px;
+   
+}
+.text-c{
+  text-align: justify;
 }
 .links{
   text-decoration: none;
 }
-.btn-for-error:focus{
-
+.form-label{
+ font-size: 12px;
+ color: grey;
+}
+.form-control:focus{
+  border-color: #ffcc00;
+  box-shadow: none;
+  border-width:1px;
+}
+textarea{
+  resize: none;
 }
 .btn-for-error{
   width: 100%;
@@ -15,6 +28,7 @@
   border-radius:35px;
   border: none;
   font-weight: 500;
+  font-size: 14px;
   background-color: #ffcc00;
   color: #000;
   transition: all .3s linear;
@@ -30,9 +44,12 @@
   border: none;
   color:#313131;
   height: 42px;
+  border-radius: 35px;
+  margin-top: 10px;
   font-weight: 500;
   transition: all .2s linear;
 }
+
 .color-grey{
   color:grey;
   font-size: 15px;
@@ -108,19 +125,20 @@
 }
 .accordion-button{
   font-size: 21px;
-  color: black;
+  color: #4E4E4E;
   font-weight: 500;
   padding-left: 0px!important;
   padding-right: 0px!important;
   background-color:white;
 }
 .accordion-body{
-  font-size: 19px;
-  color: #313131;
+  font-size: 17px;
+  color: #888888;
   text-align:justify;
   padding-left:0px!important;
   padding-right: 0px!important;
-  font-weight: 500;
+  line-height:30px;
+  font-weight: 400;
 }
 .accordion-header{
   box-shadow: none!important;
@@ -296,11 +314,11 @@ color:black;
 .title-container{
   position: relative;
   overflow: hidden;
-  padding-top:60px;
-  padding-bottom:60px;
+  padding-top:100px;
+  padding-bottom:100px;
   font-weight: 400px;
   background-color: #0d0d0a;
-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffcc00' fill-opacity='0.42' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+background-image: url('../images/contact.png');
  /* background-color: #707070;
 /*background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffcc00' fill-opacity='0.42' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
 /*background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffcc00' fill-opacity='0.42'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
